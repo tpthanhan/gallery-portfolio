@@ -2,6 +2,34 @@
 # yarn lockfile v1
 
 
+"@adobe/react-spectrum-ui@1.2.1":
+  version "1.2.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@adobe/react-spectrum-ui/-/react-spectrum-ui-1.2.1.tgz#31651a1c664b014bd7b4f8a2265e26ae418aecec"
+  integrity sha1-MWUaHGZLAUvXtPiiJl4mrkGK7Ow=
+
+"@adobe/react-spectrum-workflow@2.3.5":
+  version "2.3.5"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@adobe/react-spectrum-workflow/-/react-spectrum-workflow-2.3.5.tgz#3f5adc5fe2bae25416805b7d92c1ff5bd1e061f0"
+  integrity sha1-P1rcX+K64lQWgFt9ksH/W9HgYfA=
+
+"@adobe/react-spectrum@^3.47.0":
+  version "3.47.5"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@adobe/react-spectrum/-/react-spectrum-3.47.5.tgz#839fd50f94d475947b7ee9b23e07a1a17f216d5a"
+  integrity sha1-g5/VD5TUdZR7fumyPgehoX8hbVo=
+  dependencies:
+    "@internationalized/date" "^3.12.4"
+    "@react-types/shared" "^3.36.1"
+    "@spectrum-icons/ui" "^3.7.2"
+    "@spectrum-icons/workflow" "^4.3.2"
+    "@swc/helpers" "^0.5.0"
+    client-only "^0.0.1"
+    clsx "^2.0.0"
+    react-aria "3.52.1"
+    react-aria-components "1.21.1"
+    react-stately "3.50.0"
+    react-transition-group "^4.4.5"
+    use-sync-external-store "^1.6.0"
+
 "@alloc/quick-lru@^5.2.0":
   version "5.3.0"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@alloc/quick-lru/-/quick-lru-5.3.0.tgz#9073d52ad3cebbedd0d8c9f3e65aa5527fabd1e0"
@@ -116,6 +144,11 @@
   dependencies:
     "@babel/types" "^7.29.8"
 
+"@babel/runtime@^7.24.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.7":
+  version "7.29.7"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@babel/runtime/-/runtime-7.29.7.tgz#12022450c45a4da6d8d8287b18a4ff2ddb23f768"
+  integrity sha1-EgIkUMRaTabY2Ch7GKT/Ldsj92g=
+
 "@babel/template@^7.29.7":
   version "7.29.7"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@babel/template/-/template-7.29.7.tgz#4d9d4004f645cdd304de958c725162784ecac700"
@@ -189,6 +222,136 @@
   integrity sha1-yb9y/UvluSiu6JSCDo2BTtc5Fuk=
   dependencies:
     tslib "^2.4.0"
+
+"@esbuild/aix-ppc64@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/aix-ppc64/-/aix-ppc64-0.28.2.tgz#bf6e10303bcf2e7c686975fa52f937ec2728d8bc"
+  integrity sha1-v24QMDvPLnxoaXX6Uvk37Cco2Lw=
+
+"@esbuild/android-arm64@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/android-arm64/-/android-arm64-0.28.2.tgz#0c6246bc8d2c4d172aac2db3fb1190d72bd65504"
+  integrity sha1-DGJGvI0sTRcqrC2z+xGQ1yvWVQQ=
+
+"@esbuild/android-arm@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/android-arm/-/android-arm-0.28.2.tgz#2d84ece6a4e2684d92be26ee13d42757d831c381"
+  integrity sha1-LYTs5qTiaE2SvibuE9QnV9gxw4E=
+
+"@esbuild/android-x64@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/android-x64/-/android-x64-0.28.2.tgz#fc38d4d6358d8dc1cf53f09f7589fe436eb64801"
+  integrity sha1-/DjU1jWNjcHPU/CfdYn+Q262SAE=
+
+"@esbuild/darwin-arm64@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/darwin-arm64/-/darwin-arm64-0.28.2.tgz#f83afeeac1d7dac01c7a2fd012b3e451a0591fcc"
+  integrity sha1-+Dr+6sHX2sAcei/QErPkUaBZH8w=
+
+"@esbuild/darwin-x64@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/darwin-x64/-/darwin-x64-0.28.2.tgz#510147c055a795588dbbe14fd6b1b8ad0a2f30de"
+  integrity sha1-UQFHwFWnlViNu+FP1rG4rQovMN4=
+
+"@esbuild/freebsd-arm64@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/freebsd-arm64/-/freebsd-arm64-0.28.2.tgz#093b9200ecf0b115ba4e5e248a7485c9c5f8bd5e"
+  integrity sha1-CTuSAOzwsRW6Tl4kinSFycX4vV4=
+
+"@esbuild/freebsd-x64@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/freebsd-x64/-/freebsd-x64-0.28.2.tgz#0be22b6df925d213e841ea87123af5df80b0faf7"
+  integrity sha1-C+Irbfkl0hPoQeqHEjr134Cw+vc=
+
+"@esbuild/linux-arm64@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/linux-arm64/-/linux-arm64-0.28.2.tgz#1bdbc651cda9ba9995c53ed9c71ceaa65094762d"
+  integrity sha1-G9vGUc2pupmVxT7ZxxzqplCUdi0=
+
+"@esbuild/linux-arm@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/linux-arm/-/linux-arm-0.28.2.tgz#beb12ad72b84f72d28488cc1b8ee9f7eb141d753"
+  integrity sha1-vrEq1yuE9y0oSIzBuO6ffrFB11M=
+
+"@esbuild/linux-ia32@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/linux-ia32/-/linux-ia32-0.28.2.tgz#b81f9d55529b45c206a46a138214b1aa6879696b"
+  integrity sha1-uB+dVVKbRcIGpGoTghSxqmh5aWs=
+
+"@esbuild/linux-loong64@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/linux-loong64/-/linux-loong64-0.28.2.tgz#598667241a04c99b76ed6ef940ac50038c419f98"
+  integrity sha1-WYZnJBoEyZt27W75QKxQA4xBn5g=
+
+"@esbuild/linux-mips64el@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/linux-mips64el/-/linux-mips64el-0.28.2.tgz#1c51eb9cea903f53d97b5af3b1841db70f5596ca"
+  integrity sha1-HFHrnOqQP1PZe1rzsYQdtw9Vlso=
+
+"@esbuild/linux-ppc64@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/linux-ppc64/-/linux-ppc64-0.28.2.tgz#63dd61f17ceb31a81227f413feac8a71bc2c51f2"
+  integrity sha1-Y91h8XzrMagSJ/QT/qyKcbwsUfI=
+
+"@esbuild/linux-riscv64@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/linux-riscv64/-/linux-riscv64-0.28.2.tgz#3763b08fde5cf25ab1facb8e7752edfe45fbfc27"
+  integrity sha1-N2Owj95c8lqx+suOd1Lt/kX7/Cc=
+
+"@esbuild/linux-s390x@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/linux-s390x/-/linux-s390x-0.28.2.tgz#1a137ff293a82906eb3176385bd7e8e0e5cfb7cb"
+  integrity sha1-GhN/8pOoKQbrMXY4W9fo4OXPt8s=
+
+"@esbuild/linux-x64@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/linux-x64/-/linux-x64-0.28.2.tgz#268b36211c146ca54f8fe12c578a8d6ef8979485"
+  integrity sha1-Jos2IRwUbKVPj+EsV4qNbviXlIU=
+
+"@esbuild/netbsd-arm64@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/netbsd-arm64/-/netbsd-arm64-0.28.2.tgz#22571ad951d62bb6accc82d8d1fad5c8c1ac0ba1"
+  integrity sha1-Ilca2VHWK7aszILY0frVyMGsC6E=
+
+"@esbuild/netbsd-x64@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/netbsd-x64/-/netbsd-x64-0.28.2.tgz#42fcc57297eb0a0ca3f5fc475291f4c1a3f7c0de"
+  integrity sha1-QvzFcpfrCgyj9fxHUpH0waP3wN4=
+
+"@esbuild/openbsd-arm64@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/openbsd-arm64/-/openbsd-arm64-0.28.2.tgz#9eb32af104ac3dacf4edca01f596664aab0c73ef"
+  integrity sha1-nrMq8QSsPaz07coB9ZZmSqsMc+8=
+
+"@esbuild/openbsd-x64@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/openbsd-x64/-/openbsd-x64-0.28.2.tgz#febed2402d6088225e91f20fb4ce2522ad0a4efd"
+  integrity sha1-/r7SQC1giCJekfIPtM4lIq0KTv0=
+
+"@esbuild/openharmony-arm64@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/openharmony-arm64/-/openharmony-arm64-0.28.2.tgz#85641c3d466428bfbccea5f21c26836663fef5ce"
+  integrity sha1-hWQcPUZkKL+8zqXyHCaDZmP+9c4=
+
+"@esbuild/sunos-x64@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/sunos-x64/-/sunos-x64-0.28.2.tgz#a736f9d8962481045fc4c3e54f5479f22c870fb4"
+  integrity sha1-pzb52JYkgQRfxMPlT1R58iyHD7Q=
+
+"@esbuild/win32-arm64@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/win32-arm64/-/win32-arm64-0.28.2.tgz#ee5ab40fad186201b652a33f8a5eb149e9e42532"
+  integrity sha1-7lq0D60YYgG2UqM/il6xSenkJTI=
+
+"@esbuild/win32-ia32@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/win32-ia32/-/win32-ia32-0.28.2.tgz#c40d28a6d99a127da6711f2afd74b11cb63b06a7"
+  integrity sha1-xA0optmaEn2mcR8q/XSxHLY7Bqc=
+
+"@esbuild/win32-x64@0.28.2":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@esbuild/win32-x64/-/win32-x64-0.28.2.tgz#b21affb804cc167c133d95f45b3a1dc1323b9a87"
+  integrity sha1-shr/uATMFnwTPZX0WzodwTI7moc=
 
 "@eslint-community/eslint-utils@4.9.1":
   version "4.9.1"
@@ -264,6 +427,95 @@
   dependencies:
     "@eslint/core" "^0.17.0"
     levn "^0.4.1"
+
+"@formatjs/ecma402-abstract@2.3.6":
+  version "2.3.6"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@formatjs/ecma402-abstract/-/ecma402-abstract-2.3.6.tgz#d6ca9d3579054fe1e1a0a0b5e872e0d64922e4e1"
+  integrity sha1-1sqdNXkFT+HhoKC16HLg1kki5OE=
+  dependencies:
+    "@formatjs/fast-memoize" "2.2.7"
+    "@formatjs/intl-localematcher" "0.6.2"
+    decimal.js "^10.4.3"
+    tslib "^2.8.0"
+
+"@formatjs/fast-memoize@2.2.7":
+  version "2.2.7"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@formatjs/fast-memoize/-/fast-memoize-2.2.7.tgz#707f9ddaeb522a32f6715bb7950b0831f4cc7b15"
+  integrity sha1-cH+d2utSKjL2cVu3lQsIMfTMexU=
+  dependencies:
+    tslib "^2.8.0"
+
+"@formatjs/fast-memoize@3.1.7":
+  version "3.1.7"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@formatjs/fast-memoize/-/fast-memoize-3.1.7.tgz#5f79b3756e4bcb5faee47b3a2f01216e1212c9e4"
+  integrity sha1-X3mzdW5Ly1+u5Hs6LwEhbhISyeQ=
+
+"@formatjs/icu-messageformat-parser@2.11.4":
+  version "2.11.4"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@formatjs/icu-messageformat-parser/-/icu-messageformat-parser-2.11.4.tgz#63bd2cd82d08ae2bef55adeeb86486df68826f32"
+  integrity sha1-Y70s2C0IrivvVa3uuGSG32iCbzI=
+  dependencies:
+    "@formatjs/ecma402-abstract" "2.3.6"
+    "@formatjs/icu-skeleton-parser" "1.8.16"
+    tslib "^2.8.0"
+
+"@formatjs/icu-messageformat-parser@3.5.18":
+  version "3.5.18"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@formatjs/icu-messageformat-parser/-/icu-messageformat-parser-3.5.18.tgz#e843006e05eede2bbd71ac4c78c138fd274b19da"
+  integrity sha1-6EMAbgXu3iu9caxMeME4/SdLGdo=
+  dependencies:
+    "@formatjs/icu-skeleton-parser" "2.1.11"
+
+"@formatjs/icu-skeleton-parser@1.8.16":
+  version "1.8.16"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@formatjs/icu-skeleton-parser/-/icu-skeleton-parser-1.8.16.tgz#13f81f6845c7cf6599623006aacaf7d6b4ad2970"
+  integrity sha1-E/gfaEXHz2WZYjAGqsr31rStKXA=
+  dependencies:
+    "@formatjs/ecma402-abstract" "2.3.6"
+    tslib "^2.8.0"
+
+"@formatjs/icu-skeleton-parser@2.1.11":
+  version "2.1.11"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@formatjs/icu-skeleton-parser/-/icu-skeleton-parser-2.1.11.tgz#09226edf55a18e3fea80304d2cc95aaeb0095436"
+  integrity sha1-CSJu31Whjj/qgDBNLMlarrAJVDY=
+
+"@formatjs/intl-localematcher@0.6.2":
+  version "0.6.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@formatjs/intl-localematcher/-/intl-localematcher-0.6.2.tgz#e9ebe0b4082d7d48e5b2d753579fb7ece4eaefea"
+  integrity sha1-6evgtAgtfUjlstdTV5+37OTq7+o=
+  dependencies:
+    tslib "^2.8.0"
+
+"@formatjs/intl@4.2.1":
+  version "4.2.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@formatjs/intl/-/intl-4.2.1.tgz#f8261d076eceb875bdfa9871c9c42415b2acbce9"
+  integrity sha1-+CYdB27OuHW9+phxycQkFbKsvOk=
+  dependencies:
+    "@formatjs/fast-memoize" "3.1.7"
+    "@formatjs/icu-messageformat-parser" "3.5.18"
+    intl-messageformat "11.2.15"
+
+"@heroui/react@^3.2.5":
+  version "3.2.5"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@heroui/react/-/react-3.2.5.tgz#3ccf6824973e19b698d423fe9bd05225f47f39fa"
+  integrity sha1-PM9oJJc+GbaY1CP+m9BSJfR/Ofo=
+  dependencies:
+    "@heroui/styles" "3.2.5"
+    "@radix-ui/react-avatar" "1.1.11"
+    "@react-stately/utils" "3.12.1"
+    "@react-types/color" "3.2.0"
+    "@react-types/shared" "3.36.1"
+    input-otp "1.4.2"
+    tailwind-merge "3.4.0"
+    tailwind-variants "3.3.1"
+
+"@heroui/styles@3.2.5", "@heroui/styles@^3.2.5":
+  version "3.2.5"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@heroui/styles/-/styles-3.2.5.tgz#578e9831485d263c50f4c7147bc67ef1fa79c840"
+  integrity sha1-V46YMUhdJjxQ9McUe8Z+8fp5yEA=
+  dependencies:
+    tailwind-variants "3.3.1"
+    tw-animate-css "1.4.0"
 
 "@humanfs/core@^0.19.2":
   version "0.19.2"
@@ -468,6 +720,35 @@
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@img/sharp-win32-x64/-/sharp-win32-x64-0.35.4.tgz#0b67bd0b1f01123a982afcc6ba0dc00b877b8a0a"
   integrity sha1-C2e9Cx8BEjqYKvzGug3AC4d7igo=
 
+"@internationalized/date@^3.12.1", "@internationalized/date@^3.12.4":
+  version "3.12.4"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@internationalized/date/-/date-3.12.4.tgz#a391e01d54ca80b3cb4c3d5040d46a0b26c3f20f"
+  integrity sha1-o5HgHVTKgLPLTD1QQNRqCybD8g8=
+  dependencies:
+    "@swc/helpers" "^0.5.0"
+
+"@internationalized/message@^3.1.9":
+  version "3.1.10"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@internationalized/message/-/message-3.1.10.tgz#e87b25d9f545c7c8edb9b6ccb1a17005a0c052a0"
+  integrity sha1-6Hsl2fVFx8jtubbMsaFwBaDAUqA=
+  dependencies:
+    "@swc/helpers" "^0.5.0"
+    intl-messageformat "^10.1.0"
+
+"@internationalized/number@^3.6.8":
+  version "3.6.8"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@internationalized/number/-/number-3.6.8.tgz#aaa3e16fb9d64a8d7f130ccf848c626914dfdf9e"
+  integrity sha1-qqPhb7nWSo1/EwzPhIxiaRTf354=
+  dependencies:
+    "@swc/helpers" "^0.5.0"
+
+"@internationalized/string@^3.2.10", "@internationalized/string@^3.2.8":
+  version "3.2.10"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@internationalized/string/-/string-3.2.10.tgz#c38bd59a69509a41bf7422f1b2fc3af7468e4322"
+  integrity sha1-w4vVmmlQmkG/dCLxsvw690aOQyI=
+  dependencies:
+    "@swc/helpers" "^0.5.0"
+
 "@jridgewell/gen-mapping@^0.3.12", "@jridgewell/gen-mapping@^0.3.5":
   version "0.3.13"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz#6342a19f44347518c93e43b1ac69deb3c4656a1f"
@@ -489,18 +770,23 @@
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz#7a0ee601f60f99a20c7c7c5ff0c80388c1189bd6"
   integrity sha1-eg7mAfYPmaIMfHxf8MgDiMEYm9Y=
 
-"@jridgewell/sourcemap-codec@^1.4.14", "@jridgewell/sourcemap-codec@^1.5.0", "@jridgewell/sourcemap-codec@^1.5.5":
+"@jridgewell/sourcemap-codec@^1.4.14", "@jridgewell/sourcemap-codec@^1.5.0", "@jridgewell/sourcemap-codec@^1.5.5", "@jridgewell/sourcemap-codec@^1.6.0":
   version "1.6.0"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.6.0.tgz#f4c663e862f06dc98ca4d453862c46902789a18d"
   integrity sha1-9MZj6GLwbcmMpNRThixGkCeJoY0=
 
-"@jridgewell/trace-mapping@^0.3.24", "@jridgewell/trace-mapping@^0.3.28":
+"@jridgewell/trace-mapping@0.3.31", "@jridgewell/trace-mapping@^0.3.24", "@jridgewell/trace-mapping@^0.3.28":
   version "0.3.31"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz#db15d6781c931f3a251a3dac39501c98a6082fd0"
   integrity sha1-2xXWeByTHzolGj2sOVAcmKYIL9A=
   dependencies:
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
+
+"@napi-rs/lzma-linux-x64-gnu@1.5.1":
+  version "1.5.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@napi-rs/lzma-linux-x64-gnu/-/lzma-linux-x64-gnu-1.5.1.tgz#e57d4306966078662038094fb38eb9146dc3aea9"
+  integrity sha1-5X1DBpZgeGYgOAlPs465FG3Drqk=
 
 "@napi-rs/wasm-runtime@^1.1.4":
   version "1.2.4"
@@ -588,12 +874,288 @@
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@nolyfill/is-core-module/-/is-core-module-1.0.39.tgz#3dc35ba0f1e66b403c00b39344f870298ebb1c8e"
   integrity sha1-PcNboPHma0A8ALOTRPhwKY67HI4=
 
+"@playwright/test@^1.63.0":
+  version "1.63.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@playwright/test/-/test-1.63.0.tgz#808020c46e8b6b91f9d628cd0ebcbb32bdfd8b6c"
+  integrity sha1-gIAgxG6La5H51ijNDry7Mr39i2w=
+  dependencies:
+    playwright "1.63.0"
+
+"@radix-ui/react-avatar@1.1.11":
+  version "1.1.11"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@radix-ui/react-avatar/-/react-avatar-1.1.11.tgz#3e24b70d636a12e2806abb2b4ce4b15df395f9c9"
+  integrity sha1-PiS3DWNqEuKAarsrTOSxXfOV+ck=
+  dependencies:
+    "@radix-ui/react-context" "1.1.3"
+    "@radix-ui/react-primitive" "2.1.4"
+    "@radix-ui/react-use-callback-ref" "1.1.1"
+    "@radix-ui/react-use-is-hydrated" "0.1.0"
+    "@radix-ui/react-use-layout-effect" "1.1.1"
+
+"@radix-ui/react-compose-refs@1.1.2":
+  version "1.1.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@radix-ui/react-compose-refs/-/react-compose-refs-1.1.2.tgz#a2c4c47af6337048ee78ff6dc0d090b390d2bb30"
+  integrity sha1-osTEevYzcEjueP9twNCQs5DSuzA=
+
+"@radix-ui/react-context@1.1.3":
+  version "1.1.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@radix-ui/react-context/-/react-context-1.1.3.tgz#81286f643b310d040eaac13b18e223130861d839"
+  integrity sha1-gShvZDsxDQQOqsE7GOIjEwhh2Dk=
+
+"@radix-ui/react-primitive@2.1.4":
+  version "2.1.4"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@radix-ui/react-primitive/-/react-primitive-2.1.4.tgz#2626ea309ebd63bf5767d3e7fc4081f81b993df0"
+  integrity sha1-JibqMJ69Y79XZ9Pn/ECB+BuZPfA=
+  dependencies:
+    "@radix-ui/react-slot" "1.2.4"
+
+"@radix-ui/react-slot@1.2.4":
+  version "1.2.4"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@radix-ui/react-slot/-/react-slot-1.2.4.tgz#63c0ba05fdf90cc49076b94029c852d7bac1fb83"
+  integrity sha1-Y8C6Bf35DMSQdrlAKchS17rB+4M=
+  dependencies:
+    "@radix-ui/react-compose-refs" "1.1.2"
+
+"@radix-ui/react-use-callback-ref@1.1.1":
+  version "1.1.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@radix-ui/react-use-callback-ref/-/react-use-callback-ref-1.1.1.tgz#62a4dba8b3255fdc5cc7787faeac1c6e4cc58d40"
+  integrity sha1-YqTbqLMlX9xcx3h/rqwcbkzFjUA=
+
+"@radix-ui/react-use-is-hydrated@0.1.0":
+  version "0.1.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@radix-ui/react-use-is-hydrated/-/react-use-is-hydrated-0.1.0.tgz#544da73369517036c77659d7cdd019dc0f5ff9a0"
+  integrity sha1-VE2nM2lRcDbHdlnXzdAZ3A9f+aA=
+  dependencies:
+    use-sync-external-store "^1.5.0"
+
+"@radix-ui/react-use-layout-effect@1.1.1":
+  version "1.1.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@radix-ui/react-use-layout-effect/-/react-use-layout-effect-1.1.1.tgz#0c4230a9eed49d4589c967e2d9c0d9d60a23971e"
+  integrity sha1-DEIwqe7UnUWJyWfi2cDZ1gojlx4=
+
+"@react-aria/color@^3.2.0":
+  version "3.2.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@react-aria/color/-/color-3.2.1.tgz#80701873fb26cd737de6c388650f3899ccdfb171"
+  integrity sha1-gHAYc/smzXN95sOIZQ84mczfsXE=
+  dependencies:
+    "@swc/helpers" "^0.5.0"
+    react-aria "^3.48.0"
+
+"@react-aria/i18n@^3.13.1":
+  version "3.13.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@react-aria/i18n/-/i18n-3.13.1.tgz#a40f339c3dd396e2c9782edbe8a8a3986ae4b5cb"
+  integrity sha1-pA8znD3TluLJeC7b6KijmGrktcs=
+  dependencies:
+    "@internationalized/date" "^3.12.1"
+    "@internationalized/message" "^3.1.9"
+    "@internationalized/string" "^3.2.8"
+    "@swc/helpers" "^0.5.0"
+    react-aria "^3.48.0"
+
+"@react-aria/ssr@^3.10.1":
+  version "3.10.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@react-aria/ssr/-/ssr-3.10.1.tgz#d082600c811e35e8ab780c55c47b5d731359aaf7"
+  integrity sha1-0IJgDIEeNeireAxVxHtdcxNZqvc=
+  dependencies:
+    "@swc/helpers" "^0.5.0"
+    react-aria "^3.48.0"
+
+"@react-aria/utils@^3.34.1":
+  version "3.34.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@react-aria/utils/-/utils-3.34.1.tgz#ced8c328cf7ded923a2901961325fb397a1b53c8"
+  integrity sha1-ztjDKM997ZI6KQGWEyX7OXobU8g=
+  dependencies:
+    "@swc/helpers" "^0.5.0"
+    react-aria "^3.48.0"
+    react-stately "^3.46.0"
+
+"@react-spectrum/color@^3.2.0":
+  version "3.2.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@react-spectrum/color/-/color-3.2.1.tgz#cd21fe467a4616acc523cf6531602de5a1d51a75"
+  integrity sha1-zSH+RnpGFqzFI89lMWAt5aHVGnU=
+  dependencies:
+    "@adobe/react-spectrum" "^3.47.0"
+    "@swc/helpers" "^0.5.0"
+    react-stately "^3.46.0"
+
+"@react-stately/color@^3.10.0":
+  version "3.10.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@react-stately/color/-/color-3.10.1.tgz#803c8e024846fe285220b8883368a7f98d15d363"
+  integrity sha1-gDyOAkhG/ihSILiIM2in+Y0V02M=
+  dependencies:
+    "@swc/helpers" "^0.5.0"
+    react-stately "^3.46.0"
+
+"@react-stately/utils@3.12.1":
+  version "3.12.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@react-stately/utils/-/utils-3.12.1.tgz#1c7f3980ec00f428023a7320e8882b8449530779"
+  integrity sha1-HH85gOwA9CgCOnMg6IgrhElTB3k=
+  dependencies:
+    "@swc/helpers" "^0.5.0"
+    react-stately "^3.46.0"
+
+"@react-types/color@3.2.0":
+  version "3.2.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@react-types/color/-/color-3.2.0.tgz#81fbd9c6f4118b395b72c12a153004bbc7ef5959"
+  integrity sha1-gfvZxvQRizlbcsEqFTAEu8fvWVk=
+  dependencies:
+    "@react-aria/color" "^3.2.0"
+    "@react-spectrum/color" "^3.2.0"
+    "@react-stately/color" "^3.10.0"
+
+"@react-types/shared@3.36.1", "@react-types/shared@^3.36.1":
+  version "3.36.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@react-types/shared/-/shared-3.36.1.tgz#edb8081e3872ae68a4eb4a65e62233d0754ec186"
+  integrity sha1-7bgIHjhyrmik60pl5iIz0HVOwYY=
+
+"@rollup/rollup-android-arm-eabi@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.63.3.tgz#a10887f1c9b7cd0ebf89db9be477eb641ba50dae"
+  integrity sha1-oQiH8cm3zQ6/idub5HfrZBulDa4=
+
+"@rollup/rollup-android-arm64@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.63.3.tgz#62b5aa81dc91867c6d93d67433e23913bdf45e1a"
+  integrity sha1-YrWqgdyRhnxtk9Z0M+I5E730Xho=
+
+"@rollup/rollup-darwin-arm64@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.63.3.tgz#56f973bf73238018d55daccc2b6145e63f191445"
+  integrity sha1-Vvlzv3MjgBjVXazMK2FF5j8ZFEU=
+
+"@rollup/rollup-darwin-x64@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.63.3.tgz#b4488e8946d6bc5d82db4b2cacd64a7b6f7c4301"
+  integrity sha1-tEiOiUbWvF2C20ssrNZKe298QwE=
+
+"@rollup/rollup-freebsd-arm64@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.63.3.tgz#47008393ed82ca27d25606644739c3798547918c"
+  integrity sha1-RwCDk+2CyifSVgZkRznDeYVHkYw=
+
+"@rollup/rollup-freebsd-x64@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-freebsd-x64/-/rollup-freebsd-x64-4.63.3.tgz#55544647cf2ffb408866cfbb93c4a3afc00646fa"
+  integrity sha1-VVRGR88v+0CIZs+7k8Sjr8AGRvo=
+
+"@rollup/rollup-linux-arm-gnueabihf@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-linux-arm-gnueabihf/-/rollup-linux-arm-gnueabihf-4.63.3.tgz#cf63a52f9def55cc5b2a94cfc53920d84b54f385"
+  integrity sha1-z2OlL53vVcxbKpTPxTkg2EtU84U=
+
+"@rollup/rollup-linux-arm-musleabihf@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-linux-arm-musleabihf/-/rollup-linux-arm-musleabihf-4.63.3.tgz#559b76095d294a8402bc903db7f959c6878242ef"
+  integrity sha1-VZt2CV0pSoQCvJA9t/lZxoeCQu8=
+
+"@rollup/rollup-linux-arm64-gnu@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.63.3.tgz#12ec7d0c7422804702c1243b4b005d5effd91551"
+  integrity sha1-Eux9DHQigEcCwSQ7SwBdXv/ZFVE=
+
+"@rollup/rollup-linux-arm64-musl@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.63.3.tgz#23119a8829d6221e235862072e2ead28a8c1940b"
+  integrity sha1-IxGaiCnWIh4jWGIHLi6tKKjBlAs=
+
+"@rollup/rollup-linux-loong64-gnu@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-linux-loong64-gnu/-/rollup-linux-loong64-gnu-4.63.3.tgz#38c4f6299602f641d22ad8832b0d1850b109c6d9"
+  integrity sha1-OMT2KZYC9kHSKtiDKw0YULEJxtk=
+
+"@rollup/rollup-linux-loong64-musl@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-linux-loong64-musl/-/rollup-linux-loong64-musl-4.63.3.tgz#24ea4df8e81272601d63cf3987aba5df24cbfcef"
+  integrity sha1-JOpN+OgScmAdY885h6ul3yTL/O8=
+
+"@rollup/rollup-linux-ppc64-gnu@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-linux-ppc64-gnu/-/rollup-linux-ppc64-gnu-4.63.3.tgz#e307b676786d460fbc926ff49a46b319c0cf13ea"
+  integrity sha1-4we2dnhtRg+8km/0mkazGcDPE+o=
+
+"@rollup/rollup-linux-ppc64-musl@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-linux-ppc64-musl/-/rollup-linux-ppc64-musl-4.63.3.tgz#785c339e3ff33cd75bacd8aa0f6a88bbb3b5e294"
+  integrity sha1-eFwznj/zPNdbrNiqD2qIu7O14pQ=
+
+"@rollup/rollup-linux-riscv64-gnu@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-linux-riscv64-gnu/-/rollup-linux-riscv64-gnu-4.63.3.tgz#0a1a5c6c06dbefa35536791d0c7928160baeef86"
+  integrity sha1-ChpcbAbb76NVNnkdDHkoFguu74Y=
+
+"@rollup/rollup-linux-riscv64-musl@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-linux-riscv64-musl/-/rollup-linux-riscv64-musl-4.63.3.tgz#720fb2f664ef2e1c825102fa95cd6e230a61ad42"
+  integrity sha1-cg+y9mTvLhyCUQL6lc1uIwphrUI=
+
+"@rollup/rollup-linux-s390x-gnu@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.63.3.tgz#d1ad9e105f7b60f109119f993abaf248a157c1b3"
+  integrity sha1-0a2eEF97YPEJEZ+ZOrrySKFXwbM=
+
+"@rollup/rollup-linux-x64-gnu@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.63.3.tgz#4f437d9e27e8b9146038994eec29aa01d05b50e9"
+  integrity sha1-T0N9nifouRRgOJlO7CmqAdBbUOk=
+
+"@rollup/rollup-linux-x64-musl@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.63.3.tgz#45b9151d1b95a6cd3b1b3ef0a4fc353252c95a04"
+  integrity sha1-RbkVHRuVps07Gz7wpPw1MlLJWgQ=
+
+"@rollup/rollup-openbsd-x64@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-openbsd-x64/-/rollup-openbsd-x64-4.63.3.tgz#187208f6903f6b6c010438eb401a1792b049c673"
+  integrity sha1-GHII9pA/a2wBBDjrQBoXkrBJxnM=
+
+"@rollup/rollup-openharmony-arm64@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-openharmony-arm64/-/rollup-openharmony-arm64-4.63.3.tgz#9294cabe8abf2e9d98b594e2cd439702ad0099ad"
+  integrity sha1-kpTKvoq/Lp2YtZTizUOXAq0Ama0=
+
+"@rollup/rollup-win32-arm64-msvc@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-win32-arm64-msvc/-/rollup-win32-arm64-msvc-4.63.3.tgz#95c2a54aee0b92c981add3e67658081d7e2e7953"
+  integrity sha1-lcKlSu4LksmBrdPmdlgIHX4ueVM=
+
+"@rollup/rollup-win32-ia32-msvc@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.63.3.tgz#0239137a61afca6ed0d9f97e148c4cde3f3388a1"
+  integrity sha1-AjkTemGvym7Q2fl+FIxM3j8ziKE=
+
+"@rollup/rollup-win32-x64-gnu@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-win32-x64-gnu/-/rollup-win32-x64-gnu-4.63.3.tgz#090a80969d1c05db54c72b98cc7ee8a0a0cc0d23"
+  integrity sha1-CQqAlp0cBdtUxyuYzH7ooKDMDSM=
+
+"@rollup/rollup-win32-x64-msvc@4.63.3":
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.63.3.tgz#d1064ba7f186344e8c8d154f76e709330167b72d"
+  integrity sha1-0QZLp/GGNE6MjRVPducJMwFnty0=
+
 "@rtsao/scc@^1.1.0":
   version "1.1.0"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@rtsao/scc/-/scc-1.1.0.tgz#927dd2fae9bc3361403ac2c7a00c32ddce9ad7e8"
   integrity sha1-kn3S+um8M2FAOsLHoAwy3c6a1+g=
 
-"@swc/helpers@0.5.23":
+"@spectrum-icons/ui@^3.7.2":
+  version "3.7.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@spectrum-icons/ui/-/ui-3.7.2.tgz#46ea7986859ebd77bb003f0d14a7f9f5f5066244"
+  integrity sha1-Rup5hoWevXe7AD8NFKf59fUGYkQ=
+  dependencies:
+    "@adobe/react-spectrum-ui" "1.2.1"
+    "@babel/runtime" "^7.24.4"
+    "@swc/helpers" "^0.5.0"
+
+"@spectrum-icons/workflow@^4.3.2":
+  version "4.3.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@spectrum-icons/workflow/-/workflow-4.3.2.tgz#a32906a4993327758fbe15bcdab589c99a31e99d"
+  integrity sha1-oykGpJkzJ3WPvhW82rWJyZox6Z0=
+  dependencies:
+    "@adobe/react-spectrum-workflow" "2.3.5"
+    "@swc/helpers" "^0.5.0"
+
+"@swc/helpers@0.5.23", "@swc/helpers@^0.5.0":
   version "0.5.23"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@swc/helpers/-/helpers-0.5.23.tgz#19287d0d86d962b111376039a50c792902c9a86a"
   integrity sha1-GSh9DYbZYrERN2A5pQx5KQLJqGo=
@@ -709,6 +1271,18 @@
     postcss "^8.5.16"
     tailwindcss "4.3.3"
 
+"@tanstack/query-core@5.102.8":
+  version "5.102.8"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@tanstack/query-core/-/query-core-5.102.8.tgz#c55c31b4f99124054805ce8ec8137c84108f3252"
+  integrity sha1-xVwxtPmRJAVIBc6OyBN8hBCPMlI=
+
+"@tanstack/react-query@^5.102.8":
+  version "5.102.8"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@tanstack/react-query/-/react-query-5.102.8.tgz#bdc5c24485258e6ae2e7ecac0a4cf58c59937839"
+  integrity sha1-vcXCRIUljmri5+ysCkz1jFmTeDk=
+  dependencies:
+    "@tanstack/query-core" "5.102.8"
+
 "@tybys/wasm-util@^0.10.2", "@tybys/wasm-util@^0.10.3":
   version "0.10.4"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@tybys/wasm-util/-/wasm-util-0.10.4.tgz#3e85ecb266f9d1722250e89bc69528615720b154"
@@ -716,7 +1290,20 @@
   dependencies:
     tslib "^2.4.0"
 
-"@types/estree@^1.0.6":
+"@types/chai@^5.2.2":
+  version "5.2.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@types/chai/-/chai-5.2.3.tgz#8e9cd9e1c3581fa6b341a5aed5588eb285be0b4a"
+  integrity sha1-jpzZ4cNYH6azQaWu1ViOsoW+C0o=
+  dependencies:
+    "@types/deep-eql" "*"
+    assertion-error "^2.0.1"
+
+"@types/deep-eql@*":
+  version "4.0.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@types/deep-eql/-/deep-eql-4.0.2.tgz#334311971d3a07121e7eb91b684a605e7eea9cbd"
+  integrity sha1-M0MRlx06BxIefrkbaEpgXn7qnL0=
+
+"@types/estree@1.0.9", "@types/estree@^1.0.0", "@types/estree@^1.0.6":
   version "1.0.9"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@types/estree/-/estree-1.0.9.tgz#cf3f0e876d7bee15a93ab925b82bf570a3904a24"
   integrity sha1-zz8Oh2177hWpOrkluCv1cKOQSiQ=
@@ -960,6 +1547,21 @@
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@unrs/resolver-binding-win32-x64-msvc/-/resolver-binding-win32-x64-msvc-1.12.2.tgz#72da0da48d72b1e87831b9c0308931d3f4669027"
   integrity sha1-ctoNpI1yseh4MbnAMIkx0/RmkCc=
 
+"@vitest/mocker@5.0.0":
+  version "5.0.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@vitest/mocker/-/mocker-5.0.0.tgz#06455717273dc13b92ad4eca64e4e501d76f533d"
+  integrity sha1-BkVXFyc9wTuSrU7KZOTlAddvUz0=
+  dependencies:
+    "@jridgewell/trace-mapping" "0.3.31"
+    "@vitest/spy" "5.0.0"
+    estree-walker "^3.0.3"
+    magic-string "^1.2.3"
+
+"@vitest/spy@5.0.0":
+  version "5.0.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/@vitest/spy/-/spy-5.0.0.tgz#4ca353a880fcabae3eabf558126ae8f5542ccbfd"
+  integrity sha1-TKNTqID8q64+q/VYEmro9VQsy/0=
+
 acorn-jsx@^5.3.2:
   version "5.3.2"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/acorn-jsx/-/acorn-jsx-5.3.2.tgz#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"
@@ -991,6 +1593,13 @@ argparse@^2.0.1:
   version "2.0.1"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
   integrity sha1-JG9Q88p4oyQPbJl+ipvR6sSeSzg=
+
+aria-hidden@^1.2.3:
+  version "1.2.6"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/aria-hidden/-/aria-hidden-1.2.6.tgz#73051c9b088114c795b1ea414e9c0fff874ffc1a"
+  integrity sha1-cwUcmwiBFMeVsepBTpwP/4dP/Bo=
+  dependencies:
+    tslib "^2.0.0"
 
 aria-query@^5.3.2:
   version "5.3.2"
@@ -1087,6 +1696,11 @@ arraybuffer.prototype.slice@^1.0.4:
     es-errors "^1.3.0"
     get-intrinsic "^1.2.6"
     is-array-buffer "^3.0.4"
+
+assertion-error@^2.0.1:
+  version "2.0.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/assertion-error/-/assertion-error-2.0.1.tgz#f641a196b335690b1070bf00b6e7593fec190bf7"
+  integrity sha1-9kGhlrM1aQsQcL8AtudZP+wZC/c=
 
 ast-types-flow@^0.0.8:
   version "0.0.8"
@@ -1199,6 +1813,11 @@ caniuse-lite@^1.0.30001579, caniuse-lite@^1.0.30001810:
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/caniuse-lite/-/caniuse-lite-1.0.30001810.tgz#4970b477dea3278374de9bc43aa8f5d39fc3cda2"
   integrity sha1-SXC0d96jJ4N03pvEOqj105/DzaI=
 
+chai@^6.2.2:
+  version "6.2.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/chai/-/chai-6.2.2.tgz#ae41b52c9aca87734505362717f3255facda360e"
+  integrity sha1-rkG1LJrKh3NFBTYnF/MlX6zaNg4=
+
 chalk@^4.0.0:
   version "4.1.2"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
@@ -1207,10 +1826,15 @@ chalk@^4.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-client-only@0.0.1:
+client-only@0.0.1, client-only@^0.0.1:
   version "0.0.1"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/client-only/-/client-only-0.0.1.tgz#38bba5d403c41ab150bff64a95c85013cf73bca1"
   integrity sha1-OLul1APEGrFQv/ZKlchQE89zvKE=
+
+clsx@^2.0.0:
+  version "2.1.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/clsx/-/clsx-2.1.1.tgz#eed397c9fd8bd882bfb18deab7102049a2f32999"
+  integrity sha1-7tOXyf2L2IK/sY3qtxAgSaLzKZk=
 
 color-convert@^2.0.1:
   version "2.0.1"
@@ -1243,7 +1867,7 @@ cross-spawn@^7.0.6:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-csstype@^3.2.2:
+csstype@^3.0.2, csstype@^3.2.2:
   version "3.2.3"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/csstype/-/csstype-3.2.3.tgz#ec48c0f3e993e50648c86da559e2610995cf989a"
   integrity sha1-7EjA8+mT5QZIyG2lWeJhCZXPmJo=
@@ -1294,6 +1918,11 @@ debug@^4.1.0, debug@^4.3.1, debug@^4.3.2, debug@^4.4.0, debug@^4.4.3:
   dependencies:
     ms "^2.1.3"
 
+decimal.js@^10.4.3:
+  version "10.6.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/decimal.js/-/decimal.js-10.6.0.tgz#e649a43e3ab953a72192ff5983865e509f37ed9a"
+  integrity sha1-5kmkPjq5U6chkv9Zg4ZeUJ837Zo=
+
 deep-is@^0.1.3:
   version "0.1.4"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/deep-is/-/deep-is-0.1.4.tgz#a6f2dce612fadd2ef1f519b73551f17e85199831"
@@ -1328,6 +1957,14 @@ doctrine@^2.1.0:
   integrity sha1-XNAfwQFiG0LEzX9dGmYkNxbT850=
   dependencies:
     esutils "^2.0.2"
+
+dom-helpers@^5.0.1:
+  version "5.2.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/dom-helpers/-/dom-helpers-5.2.1.tgz#d9400536b2bf8225ad98fe052e029451ac40e902"
+  integrity sha1-2UAFNrK/giWtmP4FLgKUUaxA6QI=
+  dependencies:
+    "@babel/runtime" "^7.8.7"
+    csstype "^3.0.2"
 
 dunder-proto@^1.0.0, dunder-proto@^1.0.1:
   version "1.0.1"
@@ -1458,6 +2095,11 @@ es-iterator-helpers@^1.2.1:
     iterator.prototype "^1.1.5"
     math-intrinsics "^1.1.0"
 
+es-module-lexer@^2.3.2:
+  version "2.3.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/es-module-lexer/-/es-module-lexer-2.3.2.tgz#311fa4f40168c1975c505477c51b23234d41ad55"
+  integrity sha1-MR+k9AFowZdcUFR3xRsjI01BrVU=
+
 es-object-atoms@^1.0.0, es-object-atoms@^1.1.1, es-object-atoms@^1.1.2:
   version "1.1.2"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/es-object-atoms/-/es-object-atoms-1.1.2.tgz#a2d0b373205724dfa525d23b0c3e1b1ca582c99b"
@@ -1493,6 +2135,38 @@ es-to-primitive@^1.3.0:
     is-callable "^1.2.7"
     is-date-object "^1.1.0"
     is-symbol "^1.1.1"
+
+"esbuild@^0.27.0 || ^0.28.0":
+  version "0.28.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/esbuild/-/esbuild-0.28.2.tgz#0f43bd1bad955b72d24e2261e3abe5957ccf0816"
+  integrity sha1-D0O9G62VW3LSTiJh46vllXzPCBY=
+  optionalDependencies:
+    "@esbuild/aix-ppc64" "0.28.2"
+    "@esbuild/android-arm" "0.28.2"
+    "@esbuild/android-arm64" "0.28.2"
+    "@esbuild/android-x64" "0.28.2"
+    "@esbuild/darwin-arm64" "0.28.2"
+    "@esbuild/darwin-x64" "0.28.2"
+    "@esbuild/freebsd-arm64" "0.28.2"
+    "@esbuild/freebsd-x64" "0.28.2"
+    "@esbuild/linux-arm" "0.28.2"
+    "@esbuild/linux-arm64" "0.28.2"
+    "@esbuild/linux-ia32" "0.28.2"
+    "@esbuild/linux-loong64" "0.28.2"
+    "@esbuild/linux-mips64el" "0.28.2"
+    "@esbuild/linux-ppc64" "0.28.2"
+    "@esbuild/linux-riscv64" "0.28.2"
+    "@esbuild/linux-s390x" "0.28.2"
+    "@esbuild/linux-x64" "0.28.2"
+    "@esbuild/netbsd-arm64" "0.28.2"
+    "@esbuild/netbsd-x64" "0.28.2"
+    "@esbuild/openbsd-arm64" "0.28.2"
+    "@esbuild/openbsd-x64" "0.28.2"
+    "@esbuild/openharmony-arm64" "0.28.2"
+    "@esbuild/sunos-x64" "0.28.2"
+    "@esbuild/win32-arm64" "0.28.2"
+    "@esbuild/win32-ia32" "0.28.2"
+    "@esbuild/win32-x64" "0.28.2"
 
 escalade@^3.2.0:
   version "3.2.0"
@@ -1720,10 +2394,22 @@ estraverse@^5.1.0, estraverse@^5.2.0, estraverse@^5.3.0:
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/estraverse/-/estraverse-5.3.0.tgz#2eea5290702f26ab8fe5370370ff86c965d21123"
   integrity sha1-LupSkHAvJquP5TcDcP+GyWXSESM=
 
+estree-walker@^3.0.3:
+  version "3.0.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/estree-walker/-/estree-walker-3.0.3.tgz#67c3e549ec402a487b4fc193d1953a524752340d"
+  integrity sha1-Z8PlSexAKkh7T8GT0ZU6UkdSNA0=
+  dependencies:
+    "@types/estree" "^1.0.0"
+
 esutils@^2.0.2:
   version "2.0.3"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/esutils/-/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
   integrity sha1-dNLrTeC42hKTcRkQ1Qd1ubcQ72Q=
+
+expect-type@^1.4.0:
+  version "1.4.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/expect-type/-/expect-type-1.4.0.tgz#24edf7f0cc69a44d008567ba4594ab96f3c3a3d6"
+  integrity sha1-JO338MxppE0AhWe6RZSrlvPDo9Y=
 
 fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   version "3.1.3"
@@ -1804,6 +2490,20 @@ for-each@^0.3.3, for-each@^0.3.5:
   integrity sha1-1lBogCeCaSD+6wr3R+57lCGkHUc=
   dependencies:
     is-callable "^1.2.7"
+
+framer-motion@^13.3.0:
+  version "13.3.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/framer-motion/-/framer-motion-13.3.0.tgz#1534c50981b8aad11473811083fa70ada803aa76"
+  integrity sha1-FTTFCYG4qtEUc4EQg/pwragDqnY=
+  dependencies:
+    motion-dom "^13.3.0"
+    motion-utils "^13.3.0"
+    tslib "^2.4.0"
+
+fsevents@~2.3.2, fsevents@~2.3.3:
+  version "2.3.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/fsevents/-/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"
+  integrity sha1-ysZAd4XQNnWipeGlMFxpezR9kNY=
 
 function-bind@^1.1.2:
   version "1.1.2"
@@ -2000,6 +2700,11 @@ imurmurhash@^0.1.4:
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
   integrity sha1-khi5srkoojixPcT7a21XbyMUU+o=
 
+input-otp@1.4.2:
+  version "1.4.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/input-otp/-/input-otp-1.4.2.tgz#f4d3d587d0f641729e55029b3b8c4870847f4f07"
+  integrity sha1-9NPVh9D2QXKeVQKbO4xIcIR/Twc=
+
 internal-slot@^1.1.0:
   version "1.1.0"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/internal-slot/-/internal-slot-1.1.0.tgz#1eac91762947d2f7056bc838d93e13b2e9604961"
@@ -2008,6 +2713,24 @@ internal-slot@^1.1.0:
     es-errors "^1.3.0"
     hasown "^2.0.2"
     side-channel "^1.1.0"
+
+intl-messageformat@11.2.15:
+  version "11.2.15"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/intl-messageformat/-/intl-messageformat-11.2.15.tgz#02c5e1db35fcad7bd2a694073061e862e4213353"
+  integrity sha1-AsXh2zX8rXvSppQHMGHoYuQhM1M=
+  dependencies:
+    "@formatjs/fast-memoize" "3.1.7"
+    "@formatjs/icu-messageformat-parser" "3.5.18"
+
+intl-messageformat@^10.1.0:
+  version "10.7.18"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/intl-messageformat/-/intl-messageformat-10.7.18.tgz#51a6f387afbca9b0f881b2ec081566db8c540b0d"
+  integrity sha1-Uabzh6+8qbD4gbLsCBVm24xUCw0=
+  dependencies:
+    "@formatjs/ecma402-abstract" "2.3.6"
+    "@formatjs/fast-memoize" "2.2.7"
+    "@formatjs/icu-messageformat-parser" "2.11.4"
+    tslib "^2.8.0"
 
 is-array-buffer@^3.0.4, is-array-buffer@^3.0.5:
   version "3.0.5"
@@ -2414,12 +3137,24 @@ lru-cache@^5.1.1:
   dependencies:
     yallist "^3.0.2"
 
+lucide-react@^1.46.0:
+  version "1.46.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/lucide-react/-/lucide-react-1.46.0.tgz#f485e29a7b448250ca96977450e529c473b5b496"
+  integrity sha1-9IXimntEglDKlpd0UOUpxHO1tJY=
+
 magic-string@^0.30.21:
   version "0.30.21"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/magic-string/-/magic-string-0.30.21.tgz#56763ec09a0fa8091df27879fd94d19078c00d91"
   integrity sha1-VnY+wJoPqAkd8nh5/ZTRkHjADZE=
   dependencies:
     "@jridgewell/sourcemap-codec" "^1.5.5"
+
+magic-string@^1.2.3:
+  version "1.4.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/magic-string/-/magic-string-1.4.1.tgz#d0f91b82cd286a8a8de14f4254ccbf1d7e07f55e"
+  integrity sha1-0Pkbgs0oaoqN4U9CVMy/HX4H9V4=
+  dependencies:
+    "@jridgewell/sourcemap-codec" "^1.6.0"
 
 math-intrinsics@^1.1.0:
   version "1.1.0"
@@ -2457,6 +3192,26 @@ minimist@^1.2.0, minimist@^1.2.6:
   version "1.2.8"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
   integrity sha1-waRk52kzAuCCoHXO4MBXdBrEdyw=
+
+motion-dom@^13.3.0:
+  version "13.3.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/motion-dom/-/motion-dom-13.3.0.tgz#e74a9cf5cea598e6c007fbfe05d29fe25a394d6a"
+  integrity sha1-50qc9c6lmObAB/v+BdKf4lo5TWo=
+  dependencies:
+    motion-utils "^13.3.0"
+
+motion-utils@^13.3.0:
+  version "13.3.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/motion-utils/-/motion-utils-13.3.0.tgz#f48cb83bc43c29ca06a807cb84ecd3d04563c635"
+  integrity sha1-9Iy4O8Q8KcoGqAfLhOzT0EVjxjU=
+
+motion@^13.3.0:
+  version "13.3.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/motion/-/motion-13.3.0.tgz#a60678695226bcf3e90c73e0c01ea4f453c74fdf"
+  integrity sha1-pgZ4aVImvPPpDHPgwB6k9FPHT98=
+  dependencies:
+    framer-motion "^13.3.0"
+    tslib "^2.4.0"
 
 ms@^2.1.1, ms@^2.1.3:
   version "2.1.3"
@@ -2581,6 +3336,11 @@ object.values@^1.1.6, object.values@^1.2.1:
     define-properties "^1.2.1"
     es-object-atoms "^1.0.0"
 
+obug@^2.1.4:
+  version "2.2.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/obug/-/obug-2.2.1.tgz#9c453efeeda822050eb9774242e969c784d64d78"
+  integrity sha1-nEU+/u2oIgUOuXdCQulpx4TWTXg=
+
 optionator@^0.9.3:
   version "0.9.4"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/optionator/-/optionator-0.9.4.tgz#7ea1c1a5d91d764fb282139c88fe11e182a3a734"
@@ -2649,10 +3409,22 @@ picomatch@^2.3.1:
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/picomatch/-/picomatch-2.3.2.tgz#5a942915e26b372dc0f0e6753149a16e6b1c5601"
   integrity sha1-WpQpFeJrNy3A8OZ1MUmhbmscVgE=
 
-picomatch@^4.0.4:
+picomatch@^4.0.3, picomatch@^4.0.4, picomatch@^4.0.7:
   version "4.0.7"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/picomatch/-/picomatch-4.0.7.tgz#6313360034ccb36b3dc61ecbdff78121f90fe21f"
   integrity sha1-YxM2ADTMs2s9xh7L3/eBIfkP4h8=
+
+playwright-core@1.63.0:
+  version "1.63.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/playwright-core/-/playwright-core-1.63.0.tgz#e57665bc32846c213ac39a1e4d5bc6228e76b376"
+  integrity sha1-5XZlvDKEbCE6w5oeTVvGIo52s3Y=
+
+playwright@1.63.0:
+  version "1.63.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/playwright/-/playwright-1.63.0.tgz#99b56f9f69b1b70c44f00bf84b2fe52348ae2511"
+  integrity sha1-mbVvn2mxtwxE8Av4Sy/lI0iuJRE=
+  dependencies:
+    playwright-core "1.63.0"
 
 possible-typed-array-names@^1.0.0, possible-typed-array-names@^1.1.0:
   version "1.1.0"
@@ -2668,7 +3440,7 @@ postcss@8.5.23:
     picocolors "^1.1.1"
     source-map-js "^1.2.1"
 
-postcss@^8.5.16:
+postcss@^8.5.16, postcss@^8.5.6:
   version "8.5.28"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/postcss/-/postcss-8.5.28.tgz#da4563a99a06e62d6c1cd1acae363224bcaed6e9"
   integrity sha1-2kVjqZoG5i1sHNGsrjYyJLyu1uk=
@@ -2692,7 +3464,7 @@ prettier@^3.9.6:
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/prettier/-/prettier-3.9.6.tgz#b3ea5146515d40fc53f18aa63f74dfab1e10dbf6"
   integrity sha1-s+pRRlFdQPxT8YqmP3Tfqx4Q2/Y=
 
-prop-types@^15.8.1:
+prop-types@^15.6.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha1-Z9h78aaU9IQ1zzMsJK8QIUoxQLU=
@@ -2711,6 +3483,34 @@ queue-microtask@^1.2.2:
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha1-SSkii7xyTfrEPg77BYyve2z7YkM=
 
+react-aria-components@1.21.1, react-aria-components@^1.21.1:
+  version "1.21.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/react-aria-components/-/react-aria-components-1.21.1.tgz#95f50ecd9a13ab4c9e9a1c550d0fe98aa5095064"
+  integrity sha1-lfUOzZoTq0yemhxVDQ/piqUJUGQ=
+  dependencies:
+    "@internationalized/date" "^3.12.4"
+    "@internationalized/string" "^3.2.10"
+    "@react-types/shared" "^3.36.1"
+    "@swc/helpers" "^0.5.0"
+    client-only "^0.0.1"
+    react-aria "3.52.1"
+    react-stately "3.50.0"
+
+react-aria@3.52.1, react-aria@^3.48.0, react-aria@^3.52.1:
+  version "3.52.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/react-aria/-/react-aria-3.52.1.tgz#2dfc540b1f97c56c7ba5c47a7ff56ba5646ef589"
+  integrity sha1-LfxUCx+XxWx7pcR6f/VrpWRu9Yk=
+  dependencies:
+    "@internationalized/date" "^3.12.4"
+    "@internationalized/number" "^3.6.8"
+    "@internationalized/string" "^3.2.10"
+    "@react-types/shared" "^3.36.1"
+    "@swc/helpers" "^0.5.0"
+    aria-hidden "^1.2.3"
+    clsx "^2.0.0"
+    react-stately "3.50.0"
+    use-sync-external-store "^1.6.0"
+
 react-dom@19.2.8:
   version "19.2.8"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/react-dom/-/react-dom-19.2.8.tgz#3b46b9eeda877cdff2cf13d2770fff4ae36c2ec2"
@@ -2718,10 +3518,41 @@ react-dom@19.2.8:
   dependencies:
     scheduler "^0.27.0"
 
+react-intl@^10.2.2:
+  version "10.2.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/react-intl/-/react-intl-10.2.2.tgz#4818a74be7f951576a02c829685273902c598d8f"
+  integrity sha1-SBinS+f5UVdqAsgpaFJzkCxZjY8=
+  dependencies:
+    "@formatjs/icu-messageformat-parser" "3.5.18"
+    "@formatjs/intl" "4.2.1"
+    intl-messageformat "11.2.15"
+
 react-is@^16.13.1:
   version "16.13.1"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
+
+react-stately@3.50.0, react-stately@^3.46.0:
+  version "3.50.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/react-stately/-/react-stately-3.50.0.tgz#e94058a2ada3f1d5e2f0591818d18df26129af67"
+  integrity sha1-6UBYoq2j8dXi8FkYGNGN8mEpr2c=
+  dependencies:
+    "@internationalized/date" "^3.12.4"
+    "@internationalized/number" "^3.6.8"
+    "@internationalized/string" "^3.2.10"
+    "@react-types/shared" "^3.36.1"
+    "@swc/helpers" "^0.5.0"
+    use-sync-external-store "^1.6.0"
+
+react-transition-group@^4.4.5:
+  version "4.4.5"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/react-transition-group/-/react-transition-group-4.4.5.tgz#e53d4e3f3344da8521489fbef8f2581d42becdd1"
+  integrity sha1-5T1OPzNE2oUhSJ+++PJYHUK+zdE=
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    dom-helpers "^5.0.1"
+    loose-envify "^1.4.0"
+    prop-types "^15.6.2"
 
 react@19.2.8:
   version "19.2.8"
@@ -2781,6 +3612,41 @@ reusify@^1.0.4:
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/reusify/-/reusify-1.1.0.tgz#0fe13b9522e1473f51b558ee796e08f11f9b489f"
   integrity sha1-D+E7lSLhRz9RtVjueW4I8R+bSJ8=
 
+rollup@^4.43.0:
+  version "4.63.3"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/rollup/-/rollup-4.63.3.tgz#2346cd43a2efef28dae301ae1d01664759380bb8"
+  integrity sha1-I0bNQ6Lv7yja4wGuHQFmR1k4C7g=
+  dependencies:
+    "@types/estree" "1.0.9"
+  optionalDependencies:
+    "@napi-rs/lzma-linux-x64-gnu" "1.5.1"
+    "@rollup/rollup-android-arm-eabi" "4.63.3"
+    "@rollup/rollup-android-arm64" "4.63.3"
+    "@rollup/rollup-darwin-arm64" "4.63.3"
+    "@rollup/rollup-darwin-x64" "4.63.3"
+    "@rollup/rollup-freebsd-arm64" "4.63.3"
+    "@rollup/rollup-freebsd-x64" "4.63.3"
+    "@rollup/rollup-linux-arm-gnueabihf" "4.63.3"
+    "@rollup/rollup-linux-arm-musleabihf" "4.63.3"
+    "@rollup/rollup-linux-arm64-gnu" "4.63.3"
+    "@rollup/rollup-linux-arm64-musl" "4.63.3"
+    "@rollup/rollup-linux-loong64-gnu" "4.63.3"
+    "@rollup/rollup-linux-loong64-musl" "4.63.3"
+    "@rollup/rollup-linux-ppc64-gnu" "4.63.3"
+    "@rollup/rollup-linux-ppc64-musl" "4.63.3"
+    "@rollup/rollup-linux-riscv64-gnu" "4.63.3"
+    "@rollup/rollup-linux-riscv64-musl" "4.63.3"
+    "@rollup/rollup-linux-s390x-gnu" "4.63.3"
+    "@rollup/rollup-linux-x64-gnu" "4.63.3"
+    "@rollup/rollup-linux-x64-musl" "4.63.3"
+    "@rollup/rollup-openbsd-x64" "4.63.3"
+    "@rollup/rollup-openharmony-arm64" "4.63.3"
+    "@rollup/rollup-win32-arm64-msvc" "4.63.3"
+    "@rollup/rollup-win32-ia32-msvc" "4.63.3"
+    "@rollup/rollup-win32-x64-gnu" "4.63.3"
+    "@rollup/rollup-win32-x64-msvc" "4.63.3"
+    fsevents "~2.3.2"
+
 run-parallel@^1.1.9:
   version "1.2.0"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/run-parallel/-/run-parallel-1.2.0.tgz#66d1368da7bdf921eb9d95bd1a9229e7f21a43ee"
@@ -2830,6 +3696,11 @@ semver@^7.5.2, semver@^7.7.1, semver@^7.7.3, semver@^7.8.5:
   version "7.8.5"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/semver/-/semver-7.8.5.tgz#39b646037dd50c14fb451e7e4cac58ed8b863f69"
   integrity sha1-ObZGA33VDBT7RR5+TKxY7YuGP2k=
+
+server-only@^0.0.1:
+  version "0.0.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/server-only/-/server-only-0.0.1.tgz#0f366bb6afb618c37c9255a314535dc412cd1c9e"
+  integrity sha1-DzZrtq+2GMN8klWjFFNdxBLNHJ4=
 
 set-function-length@^1.2.2:
   version "1.2.2"
@@ -2949,6 +3820,11 @@ side-channel@^1.1.0, side-channel@^1.1.1:
     side-channel-map "^1.0.1"
     side-channel-weakmap "^1.0.2"
 
+siginfo@^2.0.0:
+  version "2.0.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/siginfo/-/siginfo-2.0.0.tgz#32e76c70b79724e3bb567cb9d543eb858ccfaf30"
+  integrity sha1-MudscLeXJOO7Vny51UPrhYzPrzA=
+
 source-map-js@^1.2.1:
   version "1.2.1"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/source-map-js/-/source-map-js-1.2.1.tgz#1ce5650fddd87abc099eda37dcff024c2667ae46"
@@ -2958,6 +3834,16 @@ stable-hash@^0.0.5:
   version "0.0.5"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/stable-hash/-/stable-hash-0.0.5.tgz#94e8837aaeac5b4d0f631d2972adef2924b40269"
   integrity sha1-lOiDeq6sW00PYx0pcq3vKSS0Amk=
+
+stackback@0.0.2:
+  version "0.0.2"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/stackback/-/stackback-0.0.2.tgz#1ac8a0d9483848d1695e418b6d031a3c3ce68e3b"
+  integrity sha1-Gsig2Ug4SNFpXkGLbQMaPDzmjjs=
+
+std-env@^4.2.0:
+  version "4.2.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/std-env/-/std-env-4.2.0.tgz#8ebe0ec60485668ab47227b312f4254cdf80c9d3"
+  integrity sha1-jr4OxgSFZoq0ciezEvQlTN+AydM=
 
 stop-iteration-iterator@^1.1.0:
   version "1.1.0"
@@ -3065,6 +3951,16 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha1-btpL00SjyUrqN21MwxvHcxEDngk=
 
+tailwind-merge@3.4.0:
+  version "3.4.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/tailwind-merge/-/tailwind-merge-3.4.0.tgz#5a264e131a096879965f1175d11f8c36e6b64eca"
+  integrity sha1-WiZOExoJaHmWXxF10R+MNua2Tso=
+
+tailwind-variants@3.3.1:
+  version "3.3.1"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/tailwind-variants/-/tailwind-variants-3.3.1.tgz#7eca8fac48ad83fe9c9e1424a379e8411ed3f5ca"
+  integrity sha1-fsqPrEitg/6cnhQko3noQR7T9co=
+
 tailwindcss@4.3.3, tailwindcss@^4:
   version "4.3.3"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/tailwindcss/-/tailwindcss-4.3.3.tgz#c006861611c213c1877893ab5b23daa16be2bb55"
@@ -3075,7 +3971,17 @@ tapable@^2.3.3:
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/tapable/-/tapable-2.3.3.tgz#5da7c9992c46038221267985ab28421a8879f160"
   integrity sha1-XafJmSxGA4IhJnmFqyhCGoh58WA=
 
-tinyglobby@^0.2.13, tinyglobby@^0.2.15:
+tinybench@6.1.4:
+  version "6.1.4"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/tinybench/-/tinybench-6.1.4.tgz#f855bb3ad1f2fe85cf624490d58bb4f4f5d30da8"
+  integrity sha1-+FW7OtHy/oXPYkSQ1Yu09PXTDag=
+
+tinyexec@1.3.0:
+  version "1.3.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/tinyexec/-/tinyexec-1.3.0.tgz#aacc1dbb1d4e93e6ad8dd64944e09f9ad147a474"
+  integrity sha1-qswdux1Ok+atjdZJROCfmtFHpHQ=
+
+tinyglobby@^0.2.13, tinyglobby@^0.2.15, tinyglobby@^0.2.17:
   version "0.2.17"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/tinyglobby/-/tinyglobby-0.2.17.tgz#562a9a6c9eb2b3b123d39719f9af5bb44fcd7631"
   integrity sha1-ViqabJ6ys7Ej05cZ+a9btE/NdjE=
@@ -3105,10 +4011,15 @@ tsconfig-paths@^3.15.0:
     minimist "^1.2.6"
     strip-bom "^3.0.0"
 
-tslib@^2.4.0, tslib@^2.8.0, tslib@^2.8.1:
+tslib@^2.0.0, tslib@^2.4.0, tslib@^2.8.0, tslib@^2.8.1:
   version "2.8.1"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
   integrity sha1-YS7+TtI11Wfoq6Xypfq3AoCt6D8=
+
+tw-animate-css@1.4.0:
+  version "1.4.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/tw-animate-css/-/tw-animate-css-1.4.0.tgz#b4a06f68244cba39428aa47e65e6e4c0babc21ee"
+  integrity sha1-tKBvaCRMujlCiqR+ZebkwLq8Ie4=
 
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
@@ -3237,6 +4148,44 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
+use-sync-external-store@^1.5.0, use-sync-external-store@^1.6.0:
+  version "1.7.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/use-sync-external-store/-/use-sync-external-store-1.7.0.tgz#6dcb66ef569e02f186af6b3d575f414ce746e18f"
+  integrity sha1-bctm71aeAvGGr2s9V19BTOdG4Y8=
+
+vite@^7:
+  version "7.3.6"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/vite/-/vite-7.3.6.tgz#0547a395e68d3746e9a505f1fd4469fe09b49cc4"
+  integrity sha1-BUejleaNN0bppQXx/URp/gm0nMQ=
+  dependencies:
+    esbuild "^0.27.0 || ^0.28.0"
+    fdir "^6.5.0"
+    picomatch "^4.0.3"
+    postcss "^8.5.6"
+    rollup "^4.43.0"
+    tinyglobby "^0.2.15"
+  optionalDependencies:
+    fsevents "~2.3.3"
+
+vitest@^5.0.0:
+  version "5.0.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/vitest/-/vitest-5.0.0.tgz#a85f075e65bc7c87cce4df2f9114214fbd92f245"
+  integrity sha1-qF8HXmW8fIfM5N8vkRQhT72S8kU=
+  dependencies:
+    "@types/chai" "^5.2.2"
+    "@vitest/mocker" "5.0.0"
+    chai "^6.2.2"
+    es-module-lexer "^2.3.2"
+    expect-type "^1.4.0"
+    magic-string "^1.2.3"
+    obug "^2.1.4"
+    picomatch "^4.0.7"
+    std-env "^4.2.0"
+    tinybench "6.1.4"
+    tinyexec "1.3.0"
+    tinyglobby "^0.2.17"
+    why-is-node-running "^2.3.0"
+
 which-boxed-primitive@^1.1.0, which-boxed-primitive@^1.1.1:
   version "1.1.1"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/which-boxed-primitive/-/which-boxed-primitive-1.1.1.tgz#d76ec27df7fa165f18d5808374a5fe23c29b176e"
@@ -3297,6 +4246,14 @@ which@^2.0.1:
   dependencies:
     isexe "^2.0.0"
 
+why-is-node-running@^2.3.0:
+  version "2.3.0"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/why-is-node-running/-/why-is-node-running-2.3.0.tgz#a3f69a97107f494b3cdc3bdddd883a7d65cebf04"
+  integrity sha1-o/aalxB/SUs83Dvd3Yg6fWXOvwQ=
+  dependencies:
+    siginfo "^2.0.0"
+    stackback "0.0.2"
+
 word-wrap@^1.2.5:
   version "1.2.5"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/word-wrap/-/word-wrap-1.2.5.tgz#d2c45c6dd4fbce621a66f136cbe328afd0410b34"
@@ -3317,7 +4274,12 @@ yocto-queue@^0.1.0:
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/zod-validation-error/-/zod-validation-error-4.0.2.tgz#bc605eba49ce0fcd598c127fee1c236be3f22918"
   integrity sha1-vGBeuknOD81ZjBJ/7hwja+PyKRg=
 
-"zod@^3.25.0 || ^4.0.0":
+"zod@^3.25.0 || ^4.0.0", zod@^4.6.5:
   version "4.6.5"
   resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/zod/-/zod-4.6.5.tgz#e3af3edbdc260239c52f73caad05dbbffe6e82cd"
   integrity sha1-468+29wmAjnFL3PKrQXbv/5ugs0=
+
+zustand@^5.0.15:
+  version "5.0.15"
+  resolved "https://pkgs.dev.azure.com/aspiagroup/_packaging/MyBusiness/npm/registry/zustand/-/zustand-5.0.15.tgz#42bddf35647cb80a818a8943a69f6618c126fcfe"
+  integrity sha1-Qr3fNWR8uAqBiolDpp9mGMEm/P4=

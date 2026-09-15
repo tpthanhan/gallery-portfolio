@@ -7,16 +7,34 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
   "dependencies": {
+    "@heroui/react": "^3.2.5",
+    "@heroui/styles": "^3.2.5",
+    "@react-aria/i18n": "^3.13.1",
+    "@react-aria/ssr": "^3.10.1",
+    "@react-aria/utils": "^3.34.1",
+    "@tanstack/react-query": "^5.102.8",
+    "lucide-react": "^1.46.0",
+    "motion": "^13.3.0",
     "next": "16.3.5",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-aria": "^3.52.1",
+    "react-aria-components": "^1.21.1",
+    "react-dom": "19.2.8",
+    "react-intl": "^10.2.2",
+    "server-only": "^0.0.1",
+    "zod": "^4.6.5",
+    "zustand": "^5.0.15"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.7.1",
+    "@playwright/test": "^1.63.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
@@ -26,7 +44,9 @@
     "prettier": "^3.9.6",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vite": "^7",
+    "vitest": "^5.0.0"
   },
   "packageManager": "yarn@1.22.22"
 }
